@@ -280,6 +280,8 @@
         @media (max-width: 768px) {
             h1 {
                 font-size: 1.8rem;
+                margin-top: 0; /* ИЗМЕНЕНИЕ: убираем верхний отступ */
+                padding-top: 10px; /* ИЗМЕНЕНИЕ: добавляем небольшой отступ */
             }
             
             h2 {
@@ -291,17 +293,27 @@
             }
             
             .hero-section {
-                height: 50vh;
-                min-height: 300px;
+                /* height: 50vh;
+                min-height: 300px; */
+                height: 45vh; /* ИЗМЕНЕНИЕ: было 50vh */
+                min-height: 250px; /* ИЗМЕНЕНИЕ: было 300px */
             }
             
             .hero-content {
-                padding: 20px 15px;
+                /* padding: 20px 15px; */
+                padding: 15px 10px; /* ИЗМЕНЕНИЕ: уменьшаем отступы */
+                bottom: 10px; /* ИЗМЕНЕНИЕ: приподнимаем контент */
             }
             
             .centered-text {
-                padding: 15px;
-                font-size: 1.1rem;
+                /* padding: 15px;
+                font-size: 1.1rem; */
+                padding: 10px; /* ИЗМЕНЕНИЕ: уменьшаем отступы */
+                font-size: 1rem; /* ИЗМЕНЕНИЕ: уменьшаем размер текста */
+            }
+            .cta-button {
+                padding: 12px 25px; /* ИЗМЕНЕНИЕ: уменьшаем кнопку */
+                font-size: 1rem;
             }
         }
     </style>
